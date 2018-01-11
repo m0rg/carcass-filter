@@ -1015,23 +1015,49 @@ Hide
     Rarity < Unique
 
 # Section: [7001]: Divination Cards
-
-# Just show all cards because too lazy to maintain tiers.
-
-# Doctor Cards
-Show
-	Class "Divination"
-	BaseType "The Doctor"
-	SetFontSize 45
-	SetTextColor 0 0 255 255
-	SetBorderColor 0 0 255 255
-	SetBackgroundColor 255 255 255 255
-	PlayAlertSound 6 300
+# changes from http://www.baudusau.tv/t/4842/gemuesefilter-25_path-of-exile and applied new sorting by value
 
 Show
-    Class "Divination"
-    SetFontSize 45
-	PlayAlertSound 9 200
+	Class  "Divination"
+	BaseType  "The Wolf's Shadow"
+	SetFontSize  38
+	SetTextColor  0 0 0 255           
+	SetBorderColor  0 100 150 255 
+	SetBackgroundColor  145 215 230 225
+	PlayAlertSound  2 300
+  
+Show  
+	Class  "Divination"
+	BaseType "The Doctor" "House of Mirrors" "The Fiend" "The Immortal" "Hunter's Reward" "Mawr Blaidd" "The Wolven King's Bite" "The Last One Standing" "The Formless Sea" "Abandoned Wealth" "The Spark and the Flame" 
+	SetFontSize  45
+	SetTextColor  0 0 255 255
+	SetBorderColor  0 0 255 255
+	SetBackgroundColor  255 255 255 255
+	PlayAlertSound  6 300
+  
+Show 
+	Class  "Divination"
+	BaseType  "The Spark and the Flame" "The Queen" "The Brittle Emperor" "The Dragon's Heart" "The King's Heart" "Pride Before the Fall" "Wealth and Power" "The Wolf" "The Valkyrie" "The Hunger" "Heterochromia" "The Artist" "The Standoff" "The Celestial Justicar" "The Saint's Treasure" "The Thaumaturgist" "Last Hope" "The Vast" "The Wind" "Time-Lost Relic" 
+	SetFontSize  45
+	SetTextColor  0 0 0 255
+	SetBorderColor  255 255 0 255
+	SetBackgroundColor  100 250 250 245
+	PlayAlertSound  2 300
+Hide 
+	Class  "Divination"
+	BaseType  "A Mother's Parting Gift" "Carrion Crow" "Cartographer's Delight" "Death" "Dying Anguish" "Hermit" "King's Blade" "Lantador's Lost Love" "Metalsmith's Gift" "Other Cheek" "Prosperity" "Rain of Chaos" "Shard of Fate" "Struck by Lightning" "The Blazing Fire" "The Conduit" "The Eye of the Dragon" "The Feast" "The Incantation" "The Lich" "The Lover" "The Lunaris Priestess" "The Oath" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scholar" "The Sigil" "The Sun" "The Surgeon" "The Twins" "The Warden" "The Wolverine" "Thunderous Skies" "Volatile Power" "The Opulent"
+	SetTextColor  0 0 0 255
+	SetBorderColor  0 0 0
+	SetBackgroundColor  175 215 230 180
+  
+  # show rest
+  
+Show
+	Class  "Divination"
+	SetFontSize  30
+	SetTextColor  0 0 0 255
+	SetBorderColor  0 100 150 255
+	SetBackgroundColor  145 215 230 225
 
 # Section: [8001]: Junk
 
